@@ -2,7 +2,7 @@ name: Deploy lambdas
 on:
   push:
     branches:
-      - "deploy/master"
+      - "master"
 
 jobs:
   build-node_modules-lambda-layer:
