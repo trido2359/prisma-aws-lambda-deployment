@@ -4,7 +4,7 @@ provider:
   name: aws
   runtime: nodejs12.x
   stage: prod
-  region: ap-southeast-1
+  region: ${env:AWS_REGION}
   # vpc:
   #   securityGroupIds:
   #     -  # FILLME
